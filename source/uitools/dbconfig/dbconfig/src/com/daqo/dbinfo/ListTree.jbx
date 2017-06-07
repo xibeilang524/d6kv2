@@ -1,0 +1,38 @@
+[PropertyInfo]
+dev,char[],false,false, , ,false,<default>
+fontsize,int,false,false, , ,false,<default>
+imagetab,javax.swing.ImageIcon,false,false, , ,false,<default>
+jtab,javax.swing.JTabbedPane,false,false, , ,false,<default>
+letter,char[],false,false, , ,false,<default>
+m_curtablename,String,false,false, , ,false,<default>
+m_db,String,false,false, , ,false,<default>
+m_managemodel,com.daqo.dbinfo.ManageModel,false,false, , ,false,<default>
+m_node,javax.swing.tree.DefaultMutableTreeNode,false,false, , ,false,<default>
+m_orderfn,String,false,false, , ,false,<default>
+m_realtable,String,false,false, , ,false,<default>
+m_slistfield,String,false,false, , ,false,<default>
+m_tablename,String,false,false, , ,false,<default>
+m_tabletabcount,int,false,false, , ,false,<default>
+m_vlistfield,java.util.Vector,false,false, , ,false,<default>
+m_vTabnoName,java.util.Vector,false,false, , ,false,<default>
+m_where,String,false,false, , ,false,<default>
+pdb_fieldtable,comdaqoc.dbinfo.table.PDB_FieldTable,false,false, , ,false,<default>
+pdll,codaqoac.dbinfo.Dlllink,false,false, , ,false,<default>
+rootnode,javax.swing.tree.DefaultMutableTreeNode,false,false, , ,false,<default>
+rowheight,int,false,false, , ,false,<default>
+serviceTypeTable,cdaqosac.dbinfo.ServiceTypeTable[],false,false, , ,false,<default>
+tableContent,int[],false,false, , ,true,<default>
+tablesetinfo,daqo.sac.dbinfo.TableSetInfo,false,false, , ,false,<default>
+VColumnClass,java.util.Vector,false,false, , ,false,<default>
+VKey,java.util.Vector,false,false, , ,false,<default>
+VListTable,java.util.Vector,false,false, , ,false,<default>
+VLongValues,java.util.Vector,false,false, , ,false,<default>
+VOpenLeafNode,java.util.Vector,false,false, , ,false,<default>
+VTabAreaData,java.util.Vector,false,false, , ,false,<default>
+VTableTabnoCount,java.util.Vector,false,false, , ,false,<default>
+VTabnoJTab,java.util.Vector,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

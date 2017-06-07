@@ -1,0 +1,22 @@
+/* XPM */
+static const char *tilev_xpm[]={
+"16 16 3 1",
+"  c None",
+"# c #000080",
+"a c #ffffff",
+"                ",
+" #############  ",
+" #a#####a#####  ",
+" #############  ",
+" #aaaaa#aaaaa#  ",
+" #aaaaa#aaaaa#  ",
+" #aaaaa#aaaaa#  ",
+" #aaaaa#aaaaa#  ",
+" #aaaaa#aaaaa#  ",
+" #aaaaa#aaaaa#  ",
+" #aaaaa#aaaaa#  ",
+" #aaaaa#aaaaa#  ",
+" #aaaaa#aaaaa#  ",
+" #############  ",
+"                ",
+"                "};

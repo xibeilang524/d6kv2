@@ -1,0 +1,23 @@
+/* XPM */
+static const char *evencross_xpm[]={
+"16 16 4 1",
+"# c #000000",
+"b c #000080",
+"  c None",
+"a c #ffffff",
+"                ",
+"                ",
+"###         ### ",
+"a #         #a  ",
+" a#         # a ",
+"a #         #a  ",
+" a#  b   b  # a ",
+"a # bb   bb #a  ",
+" a#bbbbbbbbb# a ",
+"a # bb   bb #a  ",
+" a#  b   b  # a ",
+"a #         #a  ",
+" a#         # a ",
+"###         ### ",
+"                ",
+"                "};

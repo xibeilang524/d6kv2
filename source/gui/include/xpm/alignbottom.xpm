@@ -1,0 +1,23 @@
+/* XPM */
+static const char * alignbottom_xpm[] = {
+"16 16 4 1",
+" 	c None",
+"X	c #000000",
+"o	c Gray100",
+".	c #000080",
+"   .       .    ",
+"   .       .    ",
+"   .       .    ",
+"   .       .    ",
+" .....   .....  ",
+"  ...     ...   ",
+"   .       .    ",
+"                ",
+"  XXX   XXXXXXX ",
+" Xo oX  Xo o oX ",
+" X o X  X o o X ",
+" Xo oX  Xo o oX ",
+"  XXX   XXXXXXX ",
+"                ",
+"XXXXXXXXXXXXXXX ",
+"                "};

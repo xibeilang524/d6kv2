@@ -1,0 +1,10 @@
+[PropertyInfo]
+JButton1,javax.swing.JButton,false,false, , ,false,<default>
+JButton2,javax.swing.JButton,false,false, , ,false,<default>
+JTabbedPane1,javax.swing.JTabbedPane,false,false, , ,false,<default>
+XYLayout1,com.borland.jbcl.layout.XYLayout,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

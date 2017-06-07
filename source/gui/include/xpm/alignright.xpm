@@ -1,0 +1,23 @@
+/* XPM */
+static const char * alignright_xpm[] = {
+"16 16 4 1",
+" 	c None",
+".	c Black",
+"X	c #000080",
+"o	c Gray100",
+"               .",
+"               .",
+"   X   ....... .",
+"   XX  .o o o. .",
+" XXXXX . o o . .",
+"   XX  .o o o. .",
+"   X   ....... .",
+"               .",
+"               .",
+"     X    ...  .",
+"     XX  .o o. .",
+" XXXXXXX . o . .",
+"     XX  .o o. .",
+"     X    ...  .",
+"               .",
+"                "};

@@ -1,0 +1,19 @@
+[PropertyInfo]
+JButton1,javax.swing.JButton,false,false, , ,false,<default>
+JButton2,javax.swing.JButton,false,false, , ,false,<default>
+JComDesc,javax.swing.JComboBox,false,false, , ,false,<default>
+JComFac,javax.swing.JComboBox,false,false, , ,false,<default>
+JComFLAG,javax.swing.JComboBox,false,false, , ,false,<default>
+JLabel1,javax.swing.JLabel,false,false, , ,false,<default>
+JLabel2,javax.swing.JLabel,false,false, , ,false,<default>
+JLabel3,javax.swing.JLabel,false,false, , ,false,<default>
+JLabel4,javax.swing.JLabel,false,false, , ,false,<default>
+JRadioButton1,javax.swing.JRadioButton,false,false, , ,false,<default>
+JRadioButton2,javax.swing.JRadioButton,false,false, , ,false,<default>
+JTextField,javax.swing.JTextField,false,false, , ,false,<default>
+XYLayout1,com.borland.jbcl.layout.XYLayout,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

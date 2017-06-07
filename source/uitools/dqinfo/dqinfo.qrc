@@ -1,0 +1,36 @@
+<RCC>
+  <qresource>
+    <file>res/flag-red.png</file>
+    <file>res/back_hover.png</file>
+    <file>res/back_normal.png</file>
+    <file>res/back_press.png</file>
+    <file>res/checkbox_checked.png</file>
+    <file>res/checkbox_unchecked.png</file>
+    <file>res/drop_down.png</file>
+    <file>res/minus.png</file>
+    <file>res/plus.png</file>
+    <file>res/spindown.png</file>
+    <file>res/spinup.png</file>
+    <file>res/computer-main.png</file>
+    <file>res/computer-offline.png</file>
+    <file>res/computer-online.png</file>
+    <file>res/computer-standby.png</file>
+    <file>res/serverup.png</file>
+    <file>res/serverdown.png</file>
+    <file>res/serveruncfg.png</file>
+    <file>res/computer-4.png</file>
+    <file>res/document-save-5.png</file>
+    <file>res/edit-clear-list.png</file>
+    <file>res/edit-history.png</file>
+    <file>res/media-playback-pause.png</file>
+    <file>res/media-playback-start.png</file>
+    <file>res/go-top-3.png</file>
+    <file>res/view-filter.png</file>
+    <file>res/remote-desktop.png</file>
+    <file>res/application-exit.png</file>
+    <file>res/edit-copy-3.png</file>
+    <file>res/dqinfo.png</file>
+    <file>res/netup.png</file>
+    <file>res/netdown.png</file>
+  </qresource>
+</RCC>

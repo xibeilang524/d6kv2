@@ -1,0 +1,38 @@
+[PropertyInfo]
+b_first,boolean,false,false, , ,false,<default>
+BData,boolean,false,false, , ,false,<default>
+cal_dt,java.util.Calendar,false,false, , ,false,<default>
+cal_dt1,java.util.Calendar,false,false, , ,false,<default>
+cal_dt2,java.util.Calendar,false,false, , ,false,<default>
+cmd_linesel,String,false,false, , ,false,<default>
+file_name,String,false,false, , ,false,<default>
+g_day,String,false,false, , ,false,<default>
+g_mon,String,false,false, , ,false,<default>
+g_selfilename,String,false,false, , ,false,<default>
+g_year,String,false,false, , ,false,<default>
+hdb_name,String,false,false, , ,false,<default>
+in_filenameid,String,false,false, , ,false,<default>
+JButCancel,javax.swing.JButton,false,false, , ,false,<default>
+JButOK,javax.swing.JButton,false,false, , ,false,<default>
+JComday,javax.swing.JComboBox,false,false, , ,false,<default>
+JCommon,javax.swing.JComboBox,false,false, , ,false,<default>
+JComyear,javax.swing.JComboBox,false,false, , ,false,<default>
+JLabel1,javax.swing.JLabel,false,false, , ,false,<default>
+JLabel2,javax.swing.JLabel,false,false, , ,false,<default>
+JLabel3,javax.swing.JLabel,false,false, , ,false,<default>
+JLabel4,javax.swing.JLabel,false,false, , ,false,<default>
+mon_delrowcol,boolean,false,false, , ,false,<default>
+out_filename,String,false,false, , ,false,<default>
+panel1,javax.swing.JPanel,false,false, , ,false,<default>
+pt,usacreport.dlgSelect.PrintThread,false,false, , ,false,<default>
+s_cellvalue,String,false,false, , ,false,<default>
+threadstat,boolean,false,false, , ,false,<default>
+veccontent,java.util.Vector,false,false, , ,false,<default>
+vecid,int,false,false, , ,false,<default>
+vectorprint,java.util.Vector,false,false, , ,false,<default>
+XYLayout1,com.borland.jbcl.layout.XYLayout,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

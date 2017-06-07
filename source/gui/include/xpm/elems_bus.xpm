@@ -1,0 +1,22 @@
+/* XPM */
+static const char *elems_bus_xpm[]={
+"16 15 4 1",
+"  c None",
+"# c #000000",
+"a c #808080",
+"b c #ffffff",
+"                ",
+"                ",
+"                ",
+"################",
+"aaaaaaaaaaaaaaaa",
+"                ",
+"bbbbbbbbbbbbbbbb",
+"bbbbbbbbbbbbbbbb",
+"                ",
+"aaaaaaaaaaaaaaaa",
+"################",
+"                ",
+"                ",
+"                ",
+"                "};

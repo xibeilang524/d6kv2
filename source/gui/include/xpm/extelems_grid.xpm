@@ -1,0 +1,23 @@
+/* XPM */
+static const char *extelems_grid_xpm[]={
+"16 16 4 1",
+"# c #000000",
+"a c #000080",
+"b c #808080",
+"  c None",
+"                ",
+"################",
+"#aaaaaaaaaaaaaa#",
+"#aaaaaaaaaaaaaa#",
+"#bbbbbbbbbbbbbb#",
+"#  b   b   b   #",
+"#  b   b   b   #",
+"#bbbbbbbbbbbbbb#",
+"#  b   b   b   #",
+"#  b   b   b   #",
+"#bbbbbbbbbbbbbb#",
+"#  b   b   b   #",
+"#  b   b   b   #",
+"################",
+"                ",
+"                "};

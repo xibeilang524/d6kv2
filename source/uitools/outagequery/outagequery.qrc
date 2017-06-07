@@ -1,0 +1,34 @@
+<RCC>
+  <qresource prefix="outagequery">
+    <file>outagequery.qrc</file>
+    <file>images/bk.png</file>
+    <file>images/confirm.png</file>
+    <file>images/confirmall.png</file>
+    <file>images/confirmsnd.png</file>
+    <file>images/couple.png</file>
+    <file>images/curve.png</file>
+    <file>images/dbquery.png</file>
+    <file>images/delete.png</file>
+    <file>images/ealarm.png</file>
+    <file>images/graph.png</file>
+    <file>images/hand.png</file>
+    <file>images/hisevent.png</file>
+    <file>images/jxt.png</file>
+    <file>images/mail.png</file>
+    <file>images/news.png</file>
+    <file>images/pause.png</file>
+    <file>images/person.png</file>
+    <file>images/print.png</file>
+    <file>images/quit.png</file>
+    <file>images/ralarm.png</file>
+    <file>images/remove.png</file>
+    <file>images/save.png</file>
+    <file>images/sign.png</file>
+    <file>images/stop.png</file>
+    <file>images/sysset.png</file>
+    <file>images/top.png</file>
+    <file>images/wavtest.png</file>
+    <file>images/winset.png</file>
+    <file>images/outagequery.png</file>
+  </qresource>
+</RCC>

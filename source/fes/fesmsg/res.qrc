@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="/">
+    <file>res/spindown.png</file>
+    <file>res/spinup.png</file>
+    <file>res/back_hover.png</file>
+    <file>res/back_normal.png</file>
+    <file>res/back_press.png</file>
+    <file>res/checkbox_checked.png</file>
+    <file>res/checkbox_unchecked.png</file>
+    <file>res/drop_down.png</file>
+    <file>res/clear.png</file>
+    <file>res/clear_search.png</file>
+    <file>res/editcut.png</file>
+    <file>res/filesave.png</file>
+    <file>res/player_pause.png</file>
+    <file>res/player_play.png</file>
+    <file>res/select.png</file>
+    <file>res/stop.png</file>
+    <file>res/unselect.png</file>
+    <file>res/exit.png</file>
+  </qresource>
+</RCC>

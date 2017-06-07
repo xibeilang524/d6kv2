@@ -1,0 +1,56 @@
+[PropertyInfo]
+ascending,boolean,false,false, , ,false,<default>
+BCellChangedFlag,boolean,false,false, , ,false,<default>
+BSaveFlag,boolean,false,false, , ,false,<default>
+cellChangedFlag,boolean,false,false, , ,true,<default>
+colInputMode,int[],false,false, , ,true,<default>
+colinputmode,int[],false,false, , ,false,<default>
+colType,java.util.Vector,false,false, , ,true,<default>
+columnClass,Class[],false,false, , ,true,<default>
+columnCount,int,false,false, , ,true,<default>
+columnIdentifiers,java.util.Vector,false,false, , ,true,<default>
+columnIdentifiers,Object[],false,false, , ,true,<default>
+columnName,String[],false,false, , ,true,<default>
+dataVector,java.util.Vector,false,false, , ,true,<default>
+dataVectorBk,java.util.Vector,false,false, , ,false,<default>
+DBName,String,false,false, , ,true,<default>
+delData,java.util.Vector,false,false, , ,false,<default>
+delListData,java.util.Vector,false,false, , ,false,<default>
+delRows,int,false,false, , ,true,<default>
+disEnabledInputFieldName,java.util.Vector,false,false, , ,true,<default>
+disEnableInput,java.util.Vector,false,false, , ,false,<default>
+indexes,int[],false,false, , ,false,<default>
+initendflag,boolean,false,false, , ,false,<default>
+inputMode,int[],false,false, , ,true,<default>
+key,java.util.Vector,false,false, , ,true,<default>
+keyCount,int,false,false, , ,true,<default>
+keynums,String[],false,false, , ,false,<default>
+keys,String[],false,false, , ,true,<default>
+listField,String[],false,false, , ,true,<default>
+listField,String,false,false, , ,true,<default>
+listfield,String,false,false, , ,false,<default>
+listFieldFlag,boolean,false,false, , ,true,<default>
+longValues,java.util.Vector,false,false, , ,true,<default>
+manageModel,com.daqo.dbinfo.ManageModel,false,false, , ,true,<default>
+managemodel,comdaqoc.dbinfo.ManageModel,false,false, , ,false,<default>
+numRows,int,false,false, , ,true,<default>
+modelDBName,String,false,false, , ,false,<default>
+rowCount,int,false,false, , ,true,<default>
+rowProp,java.util.Vector,false,false, , ,false,<default>
+saveFlag,boolean,false,false, , ,true,<default>
+Scol,int,false,false, , ,false,<default>
+sortchangedf,boolean,false,false, , ,false,<default>
+Srow,int,false,false, , ,false,<default>
+tableName,String,false,false, , ,true,<default>
+tablename,String,false,false, , ,false,<default>
+tableType,String,false,false, , ,true,<default>
+VColType,java.util.Vector,false,false, , ,false,<default>
+VLongValues,java.util.Vector,false,false, , ,false,<default>
+VValue,java.util.Vector,false,false, , ,false,<default>
+YKInfo,codaqoac.dbinfo.YKInfo,false,false, , ,true,<default>
+ykinfo,cdaqosac.dbinfo.YKInfo,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

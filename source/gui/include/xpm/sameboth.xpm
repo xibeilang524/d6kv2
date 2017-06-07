@@ -1,0 +1,23 @@
+/* XPM */
+static const char *sameboth_xpm[]={
+"16 16 4 1",
+"# c #000000",
+"b c #000080",
+"  c None",
+"a c #ffffff",
+"                ",
+"############### ",
+"#a a a b a a a# ",
+"# a a bbb a a # ",
+"#a a bbbbb a a# ",
+"# aba aba aba # ",
+"#abb a b a bba# ",
+"#bbbbbbbbbbbbb# ",
+"#abb a b a bba# ",
+"# aba aba aba # ",
+"#a a bbbbb a a# ",
+"# a a bbb a a # ",
+"#a a a b a a a# ",
+"############### ",
+"                ",
+"                "};

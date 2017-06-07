@@ -1,0 +1,30 @@
+/* XPM */
+static char *fileprint[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 4 1",
+"  c black",
+". c None",
+"X c #848484",
+"o c white",
+/* pixels */
+"....................",
+"....................",
+"..         .........",
+".. ooooooo  ........",
+".. ooooooo . .......",
+".. ooooooo    ......",
+".. oooooooooo ......",
+".. ooooooo    ......",
+".. oooooo X..X .....",
+".. ooooo Xoo.XX ....",
+".. ooooo .o..X. ....",
+".. ooooo ....X. ....",
+".. ooooo X..oXX ....",
+".. oooooo X..X X....",
+".. ooooooo    X  ...",
+".. oooooooooo .   ..",
+"..            ..  ..",
+"................. ..",
+"....................",
+"...................."
+};

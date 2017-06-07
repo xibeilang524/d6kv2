@@ -1,0 +1,23 @@
+/* XPM */
+static const char * rotateleft_xpm[] = {
+"16 16 4 1",
+" 	c None",
+".	c #000080",
+"X	c Black",
+"o	c #800080",
+"                ",
+"          .     ",
+"         ..     ",
+"     X  .....   ",
+"    XX   ..  .  ",
+"    XX    .   . ",
+"   XoX        . ",
+"   XoX          ",
+"  XooX          ",
+"  XooX XX       ",
+" XoooX X XX     ",
+" XoooX X   XX   ",
+"XooooX X     XX ",
+"XXXXXX XXXXXXXXX",
+"                ",
+"                "};

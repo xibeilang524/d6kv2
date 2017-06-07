@@ -1,0 +1,31 @@
+/* XPM */
+static char *viewfullscreen[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 5 1",
+"  c black",
+". c cyan",
+"X c None",
+"o c #848484",
+"O c white",
+/* pixels */
+"XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXX",
+"XXX             XXXX",
+"XX XXXXXXXXXXXXX XXX",
+"XX X           X XXX",
+"XX X .O.O.O.O. X XXX",
+"XX X OoooO.O.O X XXX",
+"XX X .O.O.O.O. X XXX",
+"XX X OoooooooO X XXX",
+"XX X .O.O.O.O. X XXX",
+"XX X OoooooooO X XXX",
+"XX X .O.O.O.O. X XXX",
+"XX X           X XXX",
+"XX XXXXXXXXXXXXX XXX",
+"XXX             XXXX",
+"XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXXXXXX"
+};

@@ -1,0 +1,24 @@
+[PropertyInfo]
+BCancelF,boolean,false,false, , ,false,<default>
+BLoginF,boolean,false,false, , ,false,<default>
+buttoncancel,javax.swing.JButton,false,false, , ,false,<default>
+buttonok,javax.swing.JButton,false,false, , ,false,<default>
+cancelF,boolean,false,false, , ,true,<default>
+comboxgroup,javax.swing.JComboBox,false,false, , ,false,<default>
+comboxusernamedescribe,javax.swing.JComboBox,false,false, , ,false,<default>
+jlabel1,javax.swing.JLabel,false,false, , ,false,<default>
+jlabel2,javax.swing.JLabel,false,false, , ,false,<default>
+jlabel3,javax.swing.JLabel,false,false, , ,false,<default>
+jlabel4,javax.swing.JLabel,false,false, , ,false,<default>
+passwordField,javax.swing.JPasswordField,false,false, , ,false,<default>
+pdll,com.daqo.dbinfo.Dlllink,false,false, , ,false,<default>
+readdb,comdaqoc.dbinfo.table.ReadDB,false,false, , ,false,<default>
+records,int,false,false, , ,false,<default>
+strpass,String,false,false, , ,false,<default>
+user,codaqoac.dbinfo.User,false,false, , ,false,<default>
+username,javax.swing.JTextField,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

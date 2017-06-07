@@ -1,0 +1,9 @@
+[PropertyInfo]
+col,int,false,false, , ,false,<default>
+row,int,false,false, , ,false,<default>
+str_cell,String,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

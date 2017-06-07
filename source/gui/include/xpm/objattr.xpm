@@ -1,0 +1,23 @@
+/* XPM */
+static const char *objattr_xpm[]={
+"16 16 4 1",
+"# c #000000",
+"a c #000080",
+"  c None",
+"b c #ffffff",
+"                ",
+"       ###### aa",
+"      #      #aa",
+"     # #      aa",
+"##### # #     aa",
+"#bb# # # #   #aa",
+"#b# #b# # ### aa",
+"#bb#bbb# #b#   a",
+"#bbbbbbb#bb#    ",
+"#bbbbbbbbbb#    ",
+"#b##b#####b#    ",
+"#bbbbbbbbbb#    ",
+"#b##b#####b#    ",
+"#bbbbbbbbbb#    ",
+"############    ",
+"                "};

@@ -1,0 +1,22 @@
+/* XPM */
+static const char *elems_flow_xpm[]={
+"16 15 4 1",
+"  c None",
+"b c #00ff00",
+"# c #ff0000",
+"a c #ffff00",
+"                ",
+"                ",
+"                ",
+"                ",
+"  ## ## ## ##   ",
+"                ",
+"                ",
+"  aa aa aa aa   ",
+"                ",
+"                ",
+"  bb bb bb bb   ",
+"                ",
+"                ",
+"                ",
+"                "};

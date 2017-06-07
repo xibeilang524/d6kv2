@@ -1,0 +1,8 @@
+gcurve编译说明
+1.配置组件qwt库
+qwt组件编译后放在nbenv环境变量指定的lib目录和dll中.包括x11系统放置在lib目录中。
+2.编译需要的头文件包含目前window平台在：F:\C++LIB\qwt-5.2.1\src
+x11平台在/home/d6000/lcgtmp/gcurve/qwttmp/src中。
+如果需要改变请将qcurve.pro中相关行修改下即可。
+3。在当前编译目录中qmake 后win直接nmake.x11平台执行make即可。
+程序生成路径在当前编译文件夹下的 bin中。

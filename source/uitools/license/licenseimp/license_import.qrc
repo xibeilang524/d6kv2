@@ -1,0 +1,9 @@
+<RCC>
+  <qresource>
+    <file>res/import.ico</file>
+    <file>res/cancel.png</file>
+    <file>res/folder.png</file>
+    <file>res/list.png</file>
+    <file>res/ok.png</file>
+  </qresource>
+</RCC>

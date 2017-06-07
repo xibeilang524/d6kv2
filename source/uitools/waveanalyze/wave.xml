@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<QtwaveConfig>
+  <RootConfig RootName = "ftpservername" RootDesc = "ftp服务器地址" Value = "172.27.27.229" />
+  <RootConfig RootName = "ftpserverport" RootDesc = "ftp服务器端口号" Value = "21" />
+  <RootConfig RootName = "ftpusername" RootDesc = "ftp服务器用户名" Value = "d6000" />
+  <RootConfig RootName = "ftpuserpassword" RootDesc = "ftp服务器密码" Value = "d6000" /> 
+  <RootConfig RootName = "localwavefilepath" RootDesc = "本地录波文件路径" Value = "D:\wavefile" /> 
+</QtwaveConfig>

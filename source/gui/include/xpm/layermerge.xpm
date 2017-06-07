@@ -1,0 +1,23 @@
+/* XPM */
+static const char *layermerge_xpm[]={
+"16 16 4 1",
+"# c #000000",
+"b c #000080",
+"a c #808080",
+"  c None",
+"          #     ",
+"          ##    ",
+"  ###########   ",
+"  ###########a  ",
+"   aaaaaaa##a   ",
+"     b    #a    ",
+"    bb          ",
+"   bbbbbbbbbbb  ",
+"   bbbbbbbbbbba ",
+"    bbaaaaaaaaa ",
+"     ba   #     ",
+"      a   ##    ",
+"  ###########   ",
+"  ###########a  ",
+"   aaaaaaa##a   ",
+"          #a    "};

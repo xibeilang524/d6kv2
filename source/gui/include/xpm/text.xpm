@@ -1,0 +1,23 @@
+/* XPM */
+static const char * text_xpm[] = {
+"16 16 4 1",
+" 	c None",
+".	c Black",
+"X	c Gray100",
+"o	c #808080",
+"                ",
+" ...............",
+" .XXXXXXXXXXXXX.",
+" .XXXX.XXXX...X.",
+" .XXXoooXXXXXXX.",
+" .XX ... XX...X.",
+" .XX. X .XXXXXX.",
+" .X...X...X...X.",
+" .XXXXXXXXXXXXX.",
+" .X...........X.",
+" .XXXXXXXXXXXXX.",
+" .X...........X.",
+" .XXXXXXXXXXXXX.",
+" .X...........X.",
+" .XXXXXXXXXXXXX.",
+" ..............."};

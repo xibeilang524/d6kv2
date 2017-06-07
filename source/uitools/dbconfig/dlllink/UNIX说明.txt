@@ -1,0 +1,2 @@
+1、UNIX下目录说明:NBENV/jht。在此目录下能正确编译。
+需要的文件有：dlllink.cxx,com_daqo_dbinfo_Dlllink.h。

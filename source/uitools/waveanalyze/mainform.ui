@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QMainForm</class>
+ <widget class="QMainWindow" name="QMainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>847</width>
+    <height>582</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>录波查看分析工具</string>
+  </property>
+  <widget class="QWidget" name="widget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>847</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="F">
+    <property name="title">
+     <string>文件(&amp;F)</string>
+    </property>
+    <addaction name="FileNewAction"/>
+    <addaction name="FileOpenAction"/>
+    <addaction name="separator"/>
+    <addaction name="FileCloseAction"/>
+    <addaction name="FilePrintAction"/>
+    <addaction name="separator"/>
+    <addaction name="action_download_file"/>
+    <addaction name="FileViewAction"/>
+    <addaction name="FilePropertyAction"/>
+    <addaction name="separator"/>
+    <addaction name="FileExitAction"/>
+   </widget>
+   <widget class="QMenu" name="V">
+    <property name="title">
+     <string>查看(&amp;V)</string>
+    </property>
+    <addaction name="mnuMainBar"/>
+    <addaction name="mnuEditBar"/>
+    <addaction name="mnuAnaBar"/>
+    <addaction name="separator"/>
+    <addaction name="ViewFullScreenAction"/>
+    <addaction name="ViewShowAllAction"/>
+    <addaction name="separator"/>
+    <addaction name="ViewAutoSetAction"/>
+    <addaction name="ViewDraw1Action"/>
+    <addaction name="ViewDraw2Action"/>
+    <addaction name="separator"/>
+    <addaction name="ViewAutoPlayAction"/>
+   </widget>
+   <widget class="QMenu" name="A">
+    <property name="title">
+     <string>分析(&amp;A)</string>
+    </property>
+    <addaction name="AnaValueAction"/>
+    <addaction name="AnaHarmAction"/>
+    <addaction name="separator"/>
+    <addaction name="AnaVectorAction"/>
+   </widget>
+   <widget class="QMenu" name="S">
+    <property name="title">
+     <string>设置(&amp;S)</string>
+    </property>
+    <addaction name="SetFaultAction"/>
+    <addaction name="SetZeroAction"/>
+    <addaction name="separator"/>
+    <addaction name="SetPropertyAction"/>
+    <addaction name="separator"/>
+    <addaction name="SetOptionAction"/>
+   </widget>
+   <widget class="QMenu" name="H">
+    <property name="title">
+     <string>帮助(&amp;H)</string>
+    </property>
+    <addaction name="HelpAboutAction"/>
+   </widget>
+   <addaction name="F"/>
+   <addaction name="V"/>
+   <addaction name="A"/>
+   <addaction name="S"/>
+   <addaction name="H"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="MainToolbar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="FileNewAction"/>
+   <addaction name="FileOpenAction"/>
+   <addaction name="FilePrintAction"/>
+   <addaction name="ViewFullScreenAction"/>
+  </widget>
+  <widget class="QToolBar" name="EditToolbar">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="EditZoomYInAction"/>
+   <addaction name="EditShowAllAction"/>
+   <addaction name="EditZoomYOutAction"/>
+   <addaction name="separator"/>
+   <addaction name="EditHomeAction"/>
+   <addaction name="EditPageUpAction"/>
+   <addaction name="EditMoveUpAction"/>
+   <addaction name="EditMoveDownAction"/>
+   <addaction name="EditPageDownAction"/>
+   <addaction name="EditEndAction"/>
+   <addaction name="separator"/>
+   <addaction name="EditLockAction"/>
+  </widget>
+  <widget class="QToolBar" name="AnalyzeToolbar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="AnaValueAction"/>
+   <addaction name="AnaHarmAction"/>
+   <addaction name="AnaVectorAction"/>
+   <addaction name="separator"/>
+   <addaction name="ViewAutoPlayAction"/>
+  </widget>
+  <action name="FileNewAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/filenew_normal.png</normaloff>:/res/images/filenew_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>新建(&amp;N)</string>
+   </property>
+  </action>
+  <action name="FileOpenAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/fileopen_normal.png</normaloff>:/res/images/fileopen_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开(&amp;O)</string>
+   </property>
+  </action>
+  <action name="FileCloseAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/closefile.png</normaloff>:/res/images/closefile.png</iconset>
+   </property>
+   <property name="text">
+    <string>关闭(&amp;C)</string>
+   </property>
+  </action>
+  <action name="FilePrintAction">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/print_hover.png</normaloff>:/res/images/print_hover.png</iconset>
+   </property>
+   <property name="text">
+    <string>打印(&amp;P)</string>
+   </property>
+  </action>
+  <action name="FileViewAction">
+   <property name="text">
+    <string>文件列表(&amp;F)</string>
+   </property>
+  </action>
+  <action name="FilePropertyAction">
+   <property name="text">
+    <string>文件属性(&amp;I)</string>
+   </property>
+  </action>
+  <action name="FileExitAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/exit.png</normaloff>:/res/images/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出(&amp;X)</string>
+   </property>
+  </action>
+  <action name="mnuMainBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>主工具栏</string>
+   </property>
+  </action>
+  <action name="mnuEditBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>图形编辑工具栏</string>
+   </property>
+  </action>
+  <action name="mnuAnaBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>功能分析工具栏</string>
+   </property>
+  </action>
+  <action name="ViewFullScreenAction">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/fullscreen_hover.png</normaloff>:/res/images/fullscreen_hover.png</iconset>
+   </property>
+   <property name="text">
+    <string>全屏</string>
+   </property>
+  </action>
+  <action name="ViewShowAllAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/editshowall.png</normaloff>:/res/images/editshowall.png</iconset>
+   </property>
+   <property name="text">
+    <string>显示所有曲线</string>
+   </property>
+  </action>
+  <action name="ViewAutoSetAction">
+   <property name="text">
+    <string>波形图自动设置</string>
+   </property>
+  </action>
+  <action name="ViewDraw1Action">
+   <property name="text">
+    <string>按像素绘制</string>
+   </property>
+  </action>
+  <action name="ViewDraw2Action">
+   <property name="text">
+    <string>压缩/拉伸至一页</string>
+   </property>
+  </action>
+  <action name="ViewAutoPlayAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/pdr_nomal.png</normaloff>:/res/images/pdr_nomal.png</iconset>
+   </property>
+   <property name="text">
+    <string>自动演示</string>
+   </property>
+  </action>
+  <action name="AnaValueAction">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/anacurve_nonal.png</normaloff>:/res/images/anacurve_nonal.png</iconset>
+   </property>
+   <property name="text">
+    <string>曲线信息</string>
+   </property>
+  </action>
+  <action name="AnaHarmAction">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/anaharm_nomal.png</normaloff>:/res/images/anaharm_nomal.png</iconset>
+   </property>
+   <property name="text">
+    <string>谐波棒图</string>
+   </property>
+  </action>
+  <action name="AnaVectorAction">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/anavector_nonal.png</normaloff>:/res/images/anavector_nonal.png</iconset>
+   </property>
+   <property name="text">
+    <string>向量图</string>
+   </property>
+  </action>
+  <action name="SetFaultAction">
+   <property name="text">
+    <string>计时起点</string>
+   </property>
+  </action>
+  <action name="SetZeroAction">
+   <property name="text">
+    <string>相对时标零点</string>
+   </property>
+  </action>
+  <action name="SetPropertyAction">
+   <property name="text">
+    <string>波形图属性</string>
+   </property>
+  </action>
+  <action name="SetOptionAction">
+   <property name="text">
+    <string>选项(&amp;O)</string>
+   </property>
+  </action>
+  <action name="HelpAboutAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/about.png</normaloff>:/res/images/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>关于...</string>
+   </property>
+  </action>
+  <action name="EditZoomYInAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/zoomout_normal.png</normaloff>:/res/images/zoomout_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>纵向放大</string>
+   </property>
+   <property name="toolTip">
+    <string>纵向放大波形曲线</string>
+   </property>
+  </action>
+  <action name="EditShowAllAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/editshowall.png</normaloff>:/res/images/editshowall.png</iconset>
+   </property>
+   <property name="text">
+    <string>所有通道显示至一页</string>
+   </property>
+   <property name="toolTip">
+    <string>所有通道显示至一页</string>
+   </property>
+  </action>
+  <action name="EditZoomYOutAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/zoomin_normal.png</normaloff>:/res/images/zoomin_normal.png</iconset>
+   </property>
+   <property name="text">
+    <string>纵向缩小</string>
+   </property>
+   <property name="toolTip">
+    <string>纵向缩小波形曲线</string>
+   </property>
+  </action>
+  <action name="EditLockAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/unlock.png</normaloff>:/res/images/unlock.png</iconset>
+   </property>
+   <property name="text">
+    <string>锁定游标</string>
+   </property>
+   <property name="toolTip">
+    <string>锁定游标与相对时标零点</string>
+   </property>
+  </action>
+  <action name="EditHomeAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/edithome_nomal.png</normaloff>:/res/images/edithome_nomal.png</iconset>
+   </property>
+   <property name="text">
+    <string>移动至波形首部</string>
+   </property>
+   <property name="toolTip">
+    <string>游标移动至波形首部</string>
+   </property>
+  </action>
+  <action name="EditPageUpAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/editpageup_nomal.png</normaloff>:/res/images/editpageup_nomal.png</iconset>
+   </property>
+   <property name="text">
+    <string>前移1/3页</string>
+   </property>
+   <property name="toolTip">
+    <string>游标前移1/3页</string>
+   </property>
+  </action>
+  <action name="EditMoveUpAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/editmoveup_nomal.png</normaloff>:/res/images/editmoveup_nomal.png</iconset>
+   </property>
+   <property name="text">
+    <string>前移一格</string>
+   </property>
+   <property name="toolTip">
+    <string>游标前移一格单位</string>
+   </property>
+  </action>
+  <action name="EditPageDownAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/editpagedown_nomal.png</normaloff>:/res/images/editpagedown_nomal.png</iconset>
+   </property>
+   <property name="text">
+    <string>后移1/3页</string>
+   </property>
+   <property name="toolTip">
+    <string>游标后移1/3页</string>
+   </property>
+  </action>
+  <action name="EditEndAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/editend_nonal.png</normaloff>:/res/images/editend_nonal.png</iconset>
+   </property>
+   <property name="text">
+    <string>移动至波形尾部</string>
+   </property>
+   <property name="toolTip">
+    <string>游标移动至波形尾部</string>
+   </property>
+  </action>
+  <action name="CaptionAutoPositonAction">
+   <property name="text">
+    <string>自动位置</string>
+   </property>
+   <property name="toolTip">
+    <string>自动位置</string>
+   </property>
+  </action>
+  <action name="CaptionAutoScaleAction">
+   <property name="text">
+    <string>自动比例</string>
+   </property>
+   <property name="toolTip">
+    <string>自动比例</string>
+   </property>
+  </action>
+  <action name="CaptionDeleteAction">
+   <property name="text">
+    <string>删除曲线(&amp;D)</string>
+   </property>
+   <property name="toolTip">
+    <string>删除曲线</string>
+   </property>
+  </action>
+  <action name="CaptionHarmAction">
+   <property name="text">
+    <string>谐波含量分析</string>
+   </property>
+   <property name="toolTip">
+    <string>谐波含量分析</string>
+   </property>
+  </action>
+  <action name="CaptionHarmWaveAction">
+   <property name="text">
+    <string>谐波曲线</string>
+   </property>
+   <property name="toolTip">
+    <string>谐波曲线</string>
+   </property>
+  </action>
+  <action name="CaptionPropertyAction">
+   <property name="text">
+    <string>通道属性...</string>
+   </property>
+   <property name="toolTip">
+    <string>通道属性</string>
+   </property>
+  </action>
+  <action name="CaptionSamePositonAction">
+   <property name="text">
+    <string>处于同一位置</string>
+   </property>
+   <property name="toolTip">
+    <string>处于同一位置</string>
+   </property>
+  </action>
+  <action name="CaptionSameScaleAction">
+   <property name="text">
+    <string>处于同一比例</string>
+   </property>
+   <property name="toolTip">
+    <string>处于同一比例</string>
+   </property>
+  </action>
+  <action name="ViewToHereAction">
+   <property name="text">
+    <string>计时起点至此</string>
+   </property>
+   <property name="toolTip">
+    <string>计时起点至此</string>
+   </property>
+  </action>
+  <action name="EditMoveDownAction">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/images/editmovedown_nomal.png</normaloff>:/res/images/editmovedown_nomal.png</iconset>
+   </property>
+   <property name="text">
+    <string>后移一格</string>
+   </property>
+   <property name="toolTip">
+    <string>游标后移一格单位</string>
+   </property>
+  </action>
+  <action name="AnaHarmWaveAction">
+   <property name="text">
+    <string>谐波曲线</string>
+   </property>
+   <property name="toolTip">
+    <string>谐波曲线</string>
+   </property>
+  </action>
+  <action name="AnaDeleteAction">
+   <property name="text">
+    <string>删除曲线</string>
+   </property>
+   <property name="toolTip">
+    <string>删除曲线</string>
+   </property>
+  </action>
+  <action name="action_download_file">
+   <property name="text">
+    <string>文件下载</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
