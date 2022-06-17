@@ -1,9 +1,0 @@
-; dlllink.def : Declares the module parameters for the DLL.
-
-LIBRARY      "dlllink"
-DESCRIPTION  'dlllink Windows Dynamic Link Library'
-
-EXPORTS
-    ; Explicit exports can go here
-	;Java_Dlllink_startdb		@1
-	;Java_Dlllink_getenvvar	@2
