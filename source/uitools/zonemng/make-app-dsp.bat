@@ -1,1 +1,0 @@
-qmake -t vcapp
